@@ -20,7 +20,10 @@ WinSysHelper.Printers | Managing Windows printers - managing ports and IP addres
 WinSysHelper.Drives | HDD tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives)
 
 ## Social Media
-[Facebook](https://www.facebook.com/ProcompExpress)
+[Facebook](https://www.facebook.com/ProcompExpress)  
+[LinkedIn (company)](https://www.linkedin.com/company/procomp-express/)  
+[LinkedIn (personal)](https://www.linkedin.com/in/nikolay-unguzov/)  
+
 
 ## Feedback
 If you encounter a problem or have a suggestion to improve modules, you may file an [issue report](https://github.com/unguzov/WinSysHelper/issues/).
