@@ -21,7 +21,7 @@ WinSysHelper.Drives | HDD tools | [Link](https://github.com/unguzov/WinSysHelper
 [Facebook](https://www.facebook.com/ProcompExpress)
 
 ## Feedback
-If you encounter a problem or have a suggestion to improve the product, you may file an [issue report](https://github.com/unguzov/WinSysHelper/issues/).
+If you encounter a problem or have a suggestion to improve modules, you may file an [issue report](https://github.com/unguzov/WinSysHelper/issues/).
 
 If you are filing a problem report, you should include:
 * The name and version of the module you are using
