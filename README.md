@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-[About](#about)
-[WinSysHelper Modules Description](#winsyshelper-modules-description)
-[Social Media](#social-media)
-[Feedback](#feedback)
+[About](#about)  
+[WinSysHelper Modules Description](#winsyshelper-modules-description)  
+[Social Media](#social-media)  
+[Feedback](#feedback)  
 
 ## About
 WinSysHelper is a PowerShell set of modules that provide functions that facilitate the daily work of the system administrator. I add and update modules in the process of my company's daily work.
