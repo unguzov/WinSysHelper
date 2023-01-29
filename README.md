@@ -16,7 +16,7 @@ Each function is in a separate file and can be used independently.
 
 Module | Description | URL
 ---------|---------|----------|
-WinSysHelper.Printers | Managing Windows printers - managing ports and IP addresses, printing a test page. | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Printers)
+WinSysHelper.Printers | Managing Windows printers - printer ports and IP addresses, printing a test page. | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Printers)
 WinSysHelper.Drives | HDD tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives)
 WinSysHelper.UPS | UPS and laptop battery information | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.UPS)
 
