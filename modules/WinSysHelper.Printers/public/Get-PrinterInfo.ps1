@@ -21,7 +21,7 @@ function Get-PrinterInfo {
     .NOTES
         Author:  Nikolay Unguzov
         Website: https://procomp-bg.com
-
+        
     .LINK
         https://github.com/unguzov/WinSysHelper
     #>
@@ -74,7 +74,7 @@ function Get-PrinterInfo {
             continue;
         }
 
-        $pp = Get-WmiObject Win32_TCPIPPrinterPort -ComputerName $ComputerName | where {$_.Name -eq $pr.PortName}
+        $pp = Get-WmiObject Win32_TCPIPPrinterPort -ComputerName $ComputerName | Where-Object {$_.Name -eq $pr.PortName}
 
         New-Object -TypeName PSObject -Property ([ordered]@{
         'PrinterName' = $pr.Name
