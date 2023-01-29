@@ -8,7 +8,7 @@
 [Feedback](#feedback)  
 
 ## About
-WinSysHelper is a PowerShell set of modules that provide functions that facilitate the daily work of the system administrator. I add and update modules in the process of my company's daily work.
+WinSysHelper is a PowerShell set of modules that provide functions that facilitate the daily work of the system administrator. I add and update modules into my company's day-to-day work process.
 
 Each function is in a separate file and can be used independently.
 
