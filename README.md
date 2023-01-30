@@ -19,6 +19,7 @@ Module | Description | URL
 WinSysHelper.Printers<br>[Get-PrinterInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Get-PrinterInfo.ps1)<br>[Send-TestPage](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Send-TestPage.ps1) | Managing Windows printers - printer ports and IP addresses, printing a test page. | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Printers)
 WinSysHelper.Drives<br>[Get-HDDInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDInfo.ps1) | HDD tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives)
 WinSysHelper.UPS<br>[Get-BatteryInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.UPS/public/Get-BatteryInfo.ps1) | UPS and laptop battery information | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.UPS)
+WinSysHelper.Network<br>[Test-InternetSpeed](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Test-InternetSpeed.ps1) | Network related tools - Internet speed test, ethernet adapters, wi-fi | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Network)
 
 ## Social Media
 [Facebook](https://www.facebook.com/ProcompExpress)  
