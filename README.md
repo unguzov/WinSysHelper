@@ -20,6 +20,7 @@ WinSysHelper.Printers<br>[Get-PrinterInfo](https://github.com/unguzov/WinSysHelp
 WinSysHelper.Drives<br>[Get-HDDInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDInfo.ps1) | HDD tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives)
 WinSysHelper.UPS<br>[Get-BatteryInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.UPS/public/Get-BatteryInfo.ps1) | UPS and laptop battery information | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.UPS)
 WinSysHelper.Network<br>[Test-InternetSpeed](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Test-InternetSpeed.ps1) | Network related tools - Internet speed test, ethernet adapters, wi-fi | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Network)
+WinSysHelper.Activation<br>[Get-ActivationInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Activation/public/Get-ActivationInfo.ps1) | Windows activation tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Activation)
 
 ## Social Media
 [Facebook](https://www.facebook.com/ProcompExpress)  
