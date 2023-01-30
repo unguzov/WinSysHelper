@@ -47,5 +47,5 @@ function Get-ActivationInfo {
     | Select-Object Description, `
     @{Label="LicenseStatus";Expression={$licenseStatus[[int]$_.LicenseStatus]}}, `
     @{Label="LicenseStatusReason";Expression={$LicenseStatusReasonStatus[[int]$_.LicenseStatusReasonStatus]}}, `
-    ProductKeyChannel,PartialProductKey,EvaluationEndDate
+    ProductKeyChannel,PartialProductKey
 }
