@@ -16,9 +16,9 @@ Each function is in a separate file and can be used independently.
 
 Module | Description | URL
 ---------|---------|----------|
-WinSysHelper.Printers | Managing Windows printers - printer ports and IP addresses, printing a test page. | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Printers)
-WinSysHelper.Drives | HDD tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives)
-WinSysHelper.UPS | UPS and laptop battery information | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.UPS)
+WinSysHelper.Printers<br>[Get-PrinterInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Get-PrinterInfo.ps1)<br>[Send-TestPage](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Send-TestPage.ps1) | Managing Windows printers - printer ports and IP addresses, printing a test page. | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Printers)
+WinSysHelper.Drives<br>[Get-HDDInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDInfo.ps1) | HDD tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives)
+WinSysHelper.UPS<br>[Get-BatteryInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.UPS/public/Get-BatteryInfo.ps1) | UPS and laptop battery information | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.UPS)
 
 ## Social Media
 [Facebook](https://www.facebook.com/ProcompExpress)  
