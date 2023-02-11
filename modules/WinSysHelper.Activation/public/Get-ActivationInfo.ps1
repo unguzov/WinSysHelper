@@ -41,11 +41,26 @@ function Get-ActivationInfo {
         3221549568 = 'Grace time expired'
     }
 
-    Get-CimInstance SoftwareLicensingProduct `
+    $ainfo = Get-CimInstance SoftwareLicensingProduct `
     -Filter "Name like 'Windows%'" `
     | Where-Object { $_.PartialProductKey } `
-    | Select-Object Name, Description, `
+    | Select-Object Description, `
     @{Label="LicenseStatus";Expression={$licenseStatus[[int]$_.LicenseStatus]}}, `
     @{Label="LicenseStatusReason";Expression={$LicenseStatusReasonStatus[[int]$_.LicenseStatusReasonStatus]}}, `
     ProductKeyChannel,PartialProductKey
+
+    $compInfo = Get-ComputerInfo `
+    | Select-Object WindowsProductName, WindowsVersion, OsHardwareAbstractionLayer, OsInstallDate
+
+    New-Object -TypeName PSObject -Property ([ordered]@{
+        'Description' = $ainfo.Description
+        'LicenseStatus' = $ainfo.LicenseStatus
+        'LicenseStatusReason' = $ainfo.LicenseStatusReason
+        'ProductKeyChannel' = $ainfo.ProductKeyChannel
+        'PartialProductKey' = $ainfo.PartialProductKey
+        'WindowsProductName' = $compInfo.WindowsProductName
+        'WindowsVersion' = $compInfo.WindowsVersion
+        'OsHardwareAbstractionLayer' = $compInfo.OsHardwareAbstractionLayer
+        'OsInstallDate' = $compInfo.OsInstallDate
+        })
 }
