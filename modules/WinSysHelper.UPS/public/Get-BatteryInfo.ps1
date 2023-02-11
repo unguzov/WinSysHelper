@@ -75,7 +75,7 @@ function Get-BatteryInfo {
     
             New-Object -TypeName PSObject -Property ([ordered]@{
                 'BatteryName' = $batt.Name
-                'DeviceID' = ([string]$batt.DeviceID).Trim()
+                'DeviceID' = ([string]$batt.DeviceID).Trim() -replace '0',''
                 'BatteryStatus' = if ($batStatus[[int]$batt.BatteryStatus]) {
                     $batStatus[[int]$batt.BatteryStatus]
                 } else {

@@ -28,8 +28,8 @@ function Test-InternetSpeed {
         $ShowProgress = $true
     )
 
-    mkdir $env:temp\stest -Force > $null
     $tmpLocation = "$env:temp\stest"
+    mkdir $tmpLocation -Force > $null
 
     $source = "https://install.speedtest.net/app/cli/ookla-speedtest-1.0.0-win64.zip"
     $destination = "$tmpLocation\stest.zip"

@@ -13,21 +13,7 @@ WinSysHelper is a PowerShell set of modules that provide functions that facilita
 Each function is in a separate file and can be used independently.
 
 ## WinSysHelper Modules Description
-<!-- 
 
-Module | Description | URL
----------|---------|----------|
-WinSysHelper.Printers<br>[Get-PrinterInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Get-PrinterInfo.ps1)<br>[Send-TestPage](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Send-TestPage.ps1) | Managing Windows printers - printer ports and IP addresses, printing a test page. | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Printers)
-<<<<<<< HEAD
-WinSysHelper.Drives<br>
-[Get-HDDInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDInfo.ps1) | HDD tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives)<br>
-=======
-WinSysHelper.Drives<br>[Get-HDDInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDInfo.ps1)<br>[Get-TreeFolderSize](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-TreeFolderSize.ps1) | HDD tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives)
->>>>>>> 20600ad33a8e0e4ce2e28a5e33f7db00032ab5ab
-WinSysHelper.UPS<br>[Get-BatteryInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.UPS/public/Get-BatteryInfo.ps1) | UPS and laptop battery information | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.UPS)
-WinSysHelper.Network<br>[Test-InternetSpeed](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Test-InternetSpeed.ps1) | Network related tools - Internet speed test, ethernet adapters, wi-fi | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Network)
-WinSysHelper.Activation<br>[Get-ActivationInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Activation/public/Get-ActivationInfo.ps1) | Windows activation tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Activation)
--->
 <table>
     <thead>
         <tr>
@@ -38,26 +24,32 @@ WinSysHelper.Activation<br>[Get-ActivationInfo](https://github.com/unguzov/WinSy
     </thead>
     <tbody>
         <tr>
-            <td>WinSysHelper.Printers<br>
-            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Get-PrinterInfo.ps1">Get-PrinterInfo</a>
-            </td>
-            <td>Managing Windows printers - printer ports and IP addresses, printing a test page.</td>
-            <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Printers">Link</a></td>
-        </tr>
         <tr>
+            <td>WinSysHelper.Activation<br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Activation/public/Get-ActivationInfo.ps1">Get-ActivationInfo</a>
+            </td>
+            <td>Windows Activation tools</td>
+            <td><a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Activation">Link</a></td>
+        </tr>
             <td>WinSysHelper.Drives<br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDEventsFromLog.ps1">Get-HDDEventsFromLog</a><br>
             <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDInfo.ps1">Get-HDDInfo</a><br>
-            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-TreeFolderSize.ps1">Get-TreeFolderSize</a><br>
-            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDEventsFromLog.ps1">Get-HDDEventsFromLog</a>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-TreeFolderSize.ps1">Get-TreeFolderSize</a>
             </td>
             <td>HDD tools</td>
             <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives">Link</a></td>
         </tr>
         <tr>
-            <td>WinSysHelper.UPS<br>
-            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.UPS/public/Get-BatteryInfo.ps1">Get-BatteryInfo</a></td>
-            <td>UPS and laptop battery information</td>
-            <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.UPS">Link</a></td>
+            <td>WinSysHelper.ExchangeOnline<br>
+            <a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.ExchangeOnline/public/Get-MailboxInfo.ps1">Get-MailboxInfo</a></td>
+            <td>Exchange Online tools</td>
+            <td><a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.ExchangeOnline">Link</a></td>
+        </tr>
+        <tr>
+            <td>WinSysHelper.Hardware<br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Hardware/public/Get-MonitorInfo.ps1">Get-MonitorInfo</a></td>
+            <td>Computer hardware information</td>
+            <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Hardware">Link</a></td>
         </tr>
         <tr>
             <td>WinSysHelper.Network<br>
@@ -66,10 +58,17 @@ WinSysHelper.Activation<br>[Get-ActivationInfo](https://github.com/unguzov/WinSy
             <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Network">Link</a></td>
         </tr>
         <tr>
-            <td>WinSysHelper.Activation<br>
-            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Activation/public/Get-ActivationInfo.ps1">Get-ActivationInfo</a></td>
-            <td>Windows activation tools</td>
-            <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Activation">Link</a></td>
+            <td>WinSysHelper.Printers<br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Get-PrinterInfo.ps1">Get-PrinterInfo</a>
+            </td>
+            <td>Managing Windows printers - printer ports and IP addresses, printing a test page.</td>
+            <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Printers">Link</a></td>
+        </tr>
+        <tr>
+            <td>WinSysHelper.UPS<br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.UPS/public/Get-BatteryInfo.ps1">Get-BatteryInfo</a></td>
+            <td>UPS and laptop battery information</td>
+            <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.UPS">Link</a></td>
         </tr>
 <!--
         <tr>

@@ -37,7 +37,6 @@ function Get-HDDEventsFromLog {
         $ShowOnlyBadBlocks = $true
     )
 
-
     if ($ShowOnlyBadBlocks) {
         Get-EventLog -LogName System -ComputerName $ComputerName | `
         Where-Object { 

@@ -44,7 +44,7 @@ function Get-ActivationInfo {
     Get-CimInstance SoftwareLicensingProduct `
     -Filter "Name like 'Windows%'" `
     | Where-Object { $_.PartialProductKey } `
-    | Select-Object Description, `
+    | Select-Object Name, Description, `
     @{Label="LicenseStatus";Expression={$licenseStatus[[int]$_.LicenseStatus]}}, `
     @{Label="LicenseStatusReason";Expression={$LicenseStatusReasonStatus[[int]$_.LicenseStatusReasonStatus]}}, `
     ProductKeyChannel,PartialProductKey
