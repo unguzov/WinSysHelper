@@ -59,7 +59,8 @@ Each function is in a separate file and can be used independently.
         </tr>
         <tr>
             <td>WinSysHelper.Printers<br>
-            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Get-PrinterInfo.ps1">Get-PrinterInfo</a>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Get-PrinterInfo.ps1">Get-PrinterInfo</a><br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Send-TestPage.ps1">Send-TestPage</a>
             </td>
             <td>Managing Windows printers - printer ports and IP addresses, printing a test page.</td>
             <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Printers">Link</a></td>
