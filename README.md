@@ -18,8 +18,12 @@ Each function is in a separate file and can be used independently.
 Module | Description | URL
 ---------|---------|----------|
 WinSysHelper.Printers<br>[Get-PrinterInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Get-PrinterInfo.ps1)<br>[Send-TestPage](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Printers/public/Send-TestPage.ps1) | Managing Windows printers - printer ports and IP addresses, printing a test page. | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Printers)
+<<<<<<< HEAD
 WinSysHelper.Drives<br>
 [Get-HDDInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDInfo.ps1) | HDD tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives)<br>
+=======
+WinSysHelper.Drives<br>[Get-HDDInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDInfo.ps1)<br>[Get-TreeFolderSize](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-TreeFolderSize.ps1) | HDD tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives)
+>>>>>>> 20600ad33a8e0e4ce2e28a5e33f7db00032ab5ab
 WinSysHelper.UPS<br>[Get-BatteryInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.UPS/public/Get-BatteryInfo.ps1) | UPS and laptop battery information | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.UPS)
 WinSysHelper.Network<br>[Test-InternetSpeed](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Test-InternetSpeed.ps1) | Network related tools - Internet speed test, ethernet adapters, wi-fi | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Network)
 WinSysHelper.Activation<br>[Get-ActivationInfo](https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Activation/public/Get-ActivationInfo.ps1) | Windows activation tools | [Link](https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Activation)
