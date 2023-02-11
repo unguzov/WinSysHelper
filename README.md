@@ -43,7 +43,8 @@ WinSysHelper.Activation<br>[Get-ActivationInfo](https://github.com/unguzov/WinSy
         <tr>
             <td>WinSysHelper.Drives<br>
             <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDInfo.ps1">Get-HDDInfo</a><br>
-            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-TreeFolderSize.ps1">Get-TreeFolderSize</a>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-TreeFolderSize.ps1">Get-TreeFolderSize</a><br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Drives/public/Get-HDDEventsFromLog.ps1">Get-HDDEventsFromLog</a>
             </td>
             <td>HDD tools</td>
             <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Drives">Link</a></td>
