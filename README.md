@@ -53,7 +53,10 @@ Each function is in a separate file and can be used independently.
         </tr>
         <tr>
             <td>WinSysHelper.Network<br>
-            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Test-InternetSpeed.ps1">Test-InternetSpeed</a></td>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Get-WirelessConnectionInfo.ps1">Get-WirelessConnectionInfo</a><br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Get-WirelessPasswords.ps1">Get-WirelessPasswords</a><br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Test-InternetSpeed.ps1">Test-InternetSpeed</a><br>
+            </td>
             <td>Network related tools - Internet speed test, ethernet adapters, wi-fi</td>
             <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Network">Link</a></td>
         </tr>
@@ -64,6 +67,12 @@ Each function is in a separate file and can be used independently.
             </td>
             <td>Managing Windows printers - printer ports and IP addresses, printing a test page.</td>
             <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Printers">Link</a></td>
+        </tr>
+        <tr>
+            <td>WinSysHelper.Software<br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Software/public/Get-InstalledSoftware.ps1">Get-InstalledSoftware</a></td>
+            <td>Installed software information</td>
+            <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Software">Link</a></td>
         </tr>
         <tr>
             <td>WinSysHelper.UPS<br>
