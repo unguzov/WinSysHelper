@@ -86,6 +86,5 @@ function Get-ActivationInfo {
         'OsHardwareAbstractionLayer' = $compInfo.OsHardwareAbstractionLayer
         'OsInstallDate' = $compInfo.OsInstallDate
         })
-
         
 }
