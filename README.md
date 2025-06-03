@@ -86,6 +86,7 @@ Each function is in a separate file and can be used independently.
             <td>Varios tools</td>
             <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Tools">Link</a></td>
         </tr>
+
 <!--
         <tr>
             <td>XXX<br>

@@ -91,5 +91,4 @@ function Get-FileFromWeb {
             Write-Error "File $destinationFileAndPath is NOT downloaded."
         }
     }
-
 }
