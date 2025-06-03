@@ -80,6 +80,12 @@ Each function is in a separate file and can be used independently.
             <td>UPS and laptop battery information</td>
             <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.UPS">Link</a></td>
         </tr>
+        <tr>
+            <td>WinSysHelper.Tools<br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Tools/public/Get-FileFromWeb.ps1">Get-FileFromWeb</a></td>
+            <td>Varios tools</td>
+            <td><a href="https://github.com/unguzov/WinSysHelper/tree/main/modules/WinSysHelper.Tools">Link</a></td>
+        </tr>
 <!--
         <tr>
             <td>XXX<br>
