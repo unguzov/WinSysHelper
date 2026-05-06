@@ -53,6 +53,7 @@ Each function is in a separate file and can be used independently.
         </tr>
         <tr>
             <td>WinSysHelper.Network<br>
+            <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Get-EdgePasswords.ps1">Get-EdgePasswords</a><br>
             <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Get-WirelessConnectionInfo.ps1">Get-WirelessConnectionInfo</a><br>
             <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Get-WirelessPasswords.ps1">Get-WirelessPasswords</a><br>
             <a href="https://github.com/unguzov/WinSysHelper/blob/main/modules/WinSysHelper.Network/public/Test-InternetSpeed.ps1">Test-InternetSpeed</a><br>
